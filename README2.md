@@ -1,4 +1,4 @@
-At STEP 4 (line 62-69 of R code), I say "variableX corresponds to the X-th line from the "features.txt" file". That is, "variable1" is related to "tBodyAcc-mean()-X", "variable2" is related to "tBodyAcc-mean()-Y", and so on. The "J" of "variableJ", therefore, refers to the number at the left of each feature function. I recommend open the above mentioned features.txt file, in order to see the variables better (where the each feature occupies exacly one line) or read the file with either "Raw" or "Blame" mode.
+# At STEP 4 (line 62-69 of R code), I say "variableX corresponds to the X-th line from the "features.txt" file". That is, "variable1" is related to "tBodyAcc-mean()-X", "variable2" is related to "tBodyAcc-mean()-Y", and so on. The "J" of "variableJ", therefore, refers to the number at the left of each feature function. I recommend open the above mentioned features.txt file, in order to see the variables better (where the each feature occupies exacly one line) or read the file with either "Raw" or "Blame" mode.
 
 
 1 tBodyAcc-mean()-X
