@@ -1,5 +1,18 @@
 # Final-Assignment---Getting-and-Cleaning-Data
 
+## Files Description:
+
+1) features.txt: Contains (561) functions (with descriptions) over some variables from the experiment;
+2) activity_labels.txt: Activity identification;
+3) X_test.txt: Test measurements regarding all the functions that appeared at features.txt file. It is a 2947x561 df;
+4) X_train.txt: Train measurements regarding all the functions that appeared at features.txt file. It is a 7352x561 df;
+5) y_test.txt: Identification of activity, about test measurements. It is a 2947x1 df;
+6) y_train.txt: Identification of activity, about train measurements. It is a 7352x1 df;
+7) subject_test.txt: Identification of subject, about test measurements. It is a 2947x1 df;
+8) subject_train.txt: Identification of subject, about train measurements. It is a 7352x1 df;
+
+### Note that df's 3), 5) and 7) are complementary of each other. At the same way, 4), 6) and 8) are also complementary.
+
 ## The Nuts and Bolts:
 
 First, I read every file that I will use, that is: X_test.txt, y_test.txt, subject_test.txt, X_train.txt, y_train.txt, subject_train.txt and features.txt.
